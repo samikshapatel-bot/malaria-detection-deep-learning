@@ -69,6 +69,7 @@ Images are used for training and validation of the model.
 Explanation of Each Folder/File
 File / Folder	                         Purpose
 dataset                       	      Plant disease images
+
 train                            	    Training images
 valid                          	      Validation images
 static/uploads	                      Uploaded images from web app
