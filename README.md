@@ -70,20 +70,20 @@ Explanation of Each Folder/File
 File / Folder	                         Purpose
 dataset                       	      Plant disease images
 
-train                            	    Training images
-valid                          	      Validation images
-static/uploads	                      Uploaded images from web app
-templates	                            HTML pages for web interface
-index.html	                          Web page for image upload
-visualize.py	                        Dataset visualization
-augmentation.py	                      Image augmentation
-model.py	                            MobileNetV2 model architecture
-train_model.py	                      Model training
-evaluate_model.py                 	  Model evaluation
-app.py	                              Flask web application
-best_plant_disease_model.h5	          Trained deep learning model
-requirements.txt	                    Python libraries needed
-README.md                          	  Project documentation
+*train                            	    Training images
+*valid                          	      Validation images
+*static/uploads	                      Uploaded images from web app
+*templates	                            HTML pages for web interface
+*index.html	                          Web page for image upload
+*visualize.py	                        Dataset visualization
+*augmentation.py	                      Image augmentation
+*model.py	                            MobileNetV2 model architecture
+*train_model.py	                      Model training
+*evaluate_model.py                 	  Model evaluation
+*app.py	                              Flask web application
+*best_plant_disease_model.h5	          Trained deep learning model
+*requirements.txt	                    Python libraries needed
+*README.md                          	  Project documentation
 
 ⚙️ Installation
 Clone the repository:
