@@ -105,4 +105,12 @@ Steps used for training the model:
 5️⃣ Model training
 6️⃣ Model evaluation
 
+🌐 Web Application
 
+A Flask web application is created where users can:
+
+Upload a microscopic blood cell image
+
+The trained model processes the image
+
+The system predicts whether the cell is Parasitized or Uninfected
