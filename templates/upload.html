@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Image</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Upload Blood Cell Image</h1>
+
+<p>Drag & drop or click to browse</p>
+<p>Supported formats: PNG, JPG, JPEG</p>
+
+<form action="/predict" method="POST" enctype="multipart/form-data">
+
+<div class="upload-box">
+<p>Drop your microscopic image here</p>
+<input type="file" name="file">
+</div>
+
+<br>
+
+<button class="main-btn">Analyze Sample</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Diagnostic Report</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Diagnostic Report</h1>
+
+<div class="report-box">
+
+<h2>Prediction Result</h2>
+
+<p class="result">{{ result }}</p>
+
+<p>Confidence: {{ confidence }}</p>
+
+</div>
+
+<div class="details">
+
+<h3>Analysis Details</h3>
+
+<ul>
+<li>Model: CNN Deep Learning</li>
+<li>Image Size: 128x128</li>
+<li>Processing Time: 2.5s</li>
+</ul>
+
+</div>
+
+<div class="disclaimer">
+
+⚠ Disclaimer: This AI system is for educational purposes only and should not replace professional medical diagnosis.
+
+</div>
+
+</div>
+
+</body>
+</html>
